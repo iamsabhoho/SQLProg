@@ -1,0 +1,1 @@
+8/25: Created our own pokemon centre which offers two different services. And the trainers could request orders for different services for different amount of time. Also, we created our own spread sheet that contains all kinds of attributes, which we will use it in the db to analyse future data. 
