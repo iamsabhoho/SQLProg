@@ -5,3 +5,5 @@
 9/1: learned ER diagram today. discussed several entities and attributes. and some other relationships based on the homework and pokemon database. the last part of the class was to make an ER diagram for our movie database. 
 
 9/5: learned the weak relationships and entities. practiced several exercises to identify the weak entities. in the warm up section, there are different relationships such as with roles and and with attributes. besides research found online, i drew some ER diagrams for different tasks. 
+
+9/8: did three ER Diagrams in class today along with the discussions with classmates on how to improve the diagram. with the helps, i was able to know more techniques to make the diagrams look better.  
