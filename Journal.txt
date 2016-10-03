@@ -11,3 +11,5 @@
 9/19: today was the first test of SQL. i think overall it is not as hard as i thought. but after the test hearing other ppl saying it is hard and did not have enough time to do the tasks, i am worrying about failing it… hopefully i will got everything it asked. 
 
 9/26: new topic today. made some databases during the class today and have more to practice at home this week. 
+
+10/3: practiced the FDs and learned the normalisations. looked up some examples of the second normal tables and presented to the class today. 
