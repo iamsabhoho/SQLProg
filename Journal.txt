@@ -14,11 +14,25 @@
 
 10/3: practiced the FDs and learned the normalisations. looked up some examples of the second normal tables and presented to the class today. 
 
-10/5:
+10/5: practiced with normalisations and learned the 3NF. 
 
-10/13:
+10/13: working on a project of making ER Diagrams, relational schema, and analysing anomalies with alex today. met some problem where we could not understand the meaning of the database, but will be thinking about that. 
 
-10/17:
+10/17: watched a video about database modeling and denormalisations. 
 
-10/20: 
+10/20: chose a database from kaggle to work on a project. and thought about how to explain the BCNF to children, which was extremely hard. 
+
+10/24, 10/27: working on the database we chose last time. preparing for the finals. 
+
+11/3: installed mySQL and started to use it to create databases and drawing ER diagrams. 
+
+11/7: continue using the work bench and installed data grip to create tables and all the other settings of the tables. 
+
+11/10: learned how to use data grip and different kinds of comments. 
+
+11/14: started a music database today, but met some problems that we were not able to continue to work. 
+
+11/17: the problem from last week was solved. learned query and practiced with several exercises today. 
+
+
 
