@@ -34,5 +34,5 @@
 
 11/17: the problem from last week was solved. learned query and practiced with several exercises today. 
 
-
+11/21: continue using the music database created few classes ago to practice some skills of sql. learned delete, update, and joining tables today. 
 
