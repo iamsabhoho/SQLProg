@@ -36,3 +36,4 @@
 
 11/21: continue using the music database created few classes ago to practice some skills of sql. learned delete, update, and joining tables today. 
 
+11/24: used a employee database and did several exercises. need to finish the rest of the exercises later. 
