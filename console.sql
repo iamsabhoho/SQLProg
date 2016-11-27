@@ -52,15 +52,26 @@ SELECT count(gender) FROM employees WHERE gender = 'F';
 SELECT first_name, last_name FROM employees WHERE 2016 - birth_date < 55;
 
 #Names and number of employees in different department
-SELECT dept_name FROM departments;
-SELECT dept_name, first_name, last_name FROM departments, employees ORDER BY dept_name;
+SELECT first_name, last_name, dept_no, emp_no FROM dept_emp INNER JOIN employees USING (emp_no) where dept_no = 'd001';
+SELECT first_name, last_name, dept_no, emp_no FROM dept_emp INNER JOIN employees USING (emp_no) where dept_no = 'd002';
+SELECT first_name, last_name, dept_no, emp_no FROM dept_emp INNER JOIN employees USING (emp_no) where dept_no = 'd003';
+SELECT first_name, last_name, dept_no, emp_no FROM dept_emp INNER JOIN employees USING (emp_no) where dept_no = 'd004';
+SELECT first_name, last_name, dept_no, emp_no FROM dept_emp INNER JOIN employees USING (emp_no) where dept_no = 'd005';
+SELECT first_name, last_name, dept_no, emp_no FROM dept_emp INNER JOIN employees USING (emp_no) where dept_no = 'd006';
+SELECT first_name, last_name, dept_no, emp_no FROM dept_emp INNER JOIN employees USING (emp_no) where dept_no = 'd007';
+SELECT first_name, last_name, dept_no, emp_no FROM dept_emp INNER JOIN employees USING (emp_no) where dept_no = 'd008';
+SELECT first_name, last_name, dept_no, emp_no FROM dept_emp INNER JOIN employees USING (emp_no) where dept_no = 'd009';
 
-#Name of employees working in three different department
-SELECT first_name, last_name, dept_name;
+#Longesttttt first and last name
+SELECT max(character_length(first_name)) FROM employees;
+SELECT max(character_length(last_name)) FROM employees;
+SELECT first_name FROM employees WHERE CHARACTER_LENGTH(first_name) = 14 LIMIT 1;
+SELECT last_name FROM employees WHERE CHARACTER_LENGTH(last_name) = 16 LIMIT 1;
 
-#Employees that have worked in the company for more than 10 years
+#Employee that have worked in the company for more than 10 years
+SELECT first_name, last_name FROM employees WHERE 2016 - hire_date < 10;
 
 #Ratio of the males/females in the sales department
-
-#Longesttttt first nameeeeee
-SELECT first_name FROM employees;
+SELECT dept_name, dept_no FROM departments; #007
+SELECT gender, count(gender), dept_name FROM employees, departments WHERE gender = 'M' AND dept_no = 'd007';
+SELECT gender, count(gender), dept_name FROM employees, departments WHERE gender = 'F' AND dept_no = 'd007';
