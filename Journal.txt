@@ -37,3 +37,7 @@
 11/21: continue using the music database created few classes ago to practice some skills of sql. learned delete, update, and joining tables today. 
 
 11/24: used a employee database and did several exercises. need to finish the rest of the exercises later. learned import from the terminal and practiced with the commands. 
+
+11/28: learned some new methods in the sql languages including allies and group by methods and practiced some queries. 
+
+12/1: played a game called guess who by writing sql commands with clues to find out who the person is. 

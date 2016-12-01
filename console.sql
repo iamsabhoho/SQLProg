@@ -45,8 +45,8 @@ SELECT birth_date, first_name, last_name FROM employees ORDER BY birth_date LIMI
 SELECT hire_date FROM employees ORDER BY hire_date DESC LIMIT 1;
 
 #How many male and female employees
-SELECT count(gender) FROM employees WHERE gender = 'M';
-SELECT count(gender) FROM employees WHERE gender = 'F';
+SELECT DISTINCT emp_no FROM employees WHERE gender = 'M';
+SELECT DISTINCT emp_no FROM employees WHERE gender = 'F';
 
 #Number of employees under 55 years old
 SELECT first_name, last_name FROM employees WHERE 2016 - birth_date < 55;
@@ -75,3 +75,12 @@ SELECT first_name, last_name FROM employees WHERE 2016 - hire_date < 10;
 SELECT dept_name, dept_no FROM departments; #007
 SELECT gender, count(gender), dept_name FROM employees, departments WHERE gender = 'M' AND dept_no = 'd007';
 SELECT gender, count(gender), dept_name FROM employees, departments WHERE gender = 'F' AND dept_no = 'd007';
+
+#diff emp number
+SELECT count(DISTINCT last_name) FROM employees;
+
+#grouped by last name
+SELECT DISTINCT first_name, last_name FROM employees GROUP BY last_name;
+SELECT concat(first_name, " ", last_name) AS name FROM employees;
+SELECT employees.first_name AS name FROM employees;
+SELECT count(DISTINCT first_name, last_name, hire_date) FROM employees;
