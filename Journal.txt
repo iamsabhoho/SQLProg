@@ -41,3 +41,9 @@
 11/28: learned some new methods in the sql languages including allies and group by methods and practiced some queries. 
 
 12/1: played a game called guess who by writing sql commands with clues to find out who the person is. 
+
+12/12: worked on the skill database and making up the works during the weekend because of the competition. and its time to change a new computer.;( 
+
+1/16: Starting last year, the first course was about Pokemon go database. and that is when i first get to know about organising data is computer languages. throughout the lessons, i learned how to draw ER diagrams, functional dependencies, normalisations. and later on in to queries to find specific information. at first i thought the queries was not as hard as i thought, just using key words to find information. but when the lesson goes on to the complex commands, it was hard to understand each commands’ function and how to use them. like now i am still confused sometimes whether I’m using them right or wrong. as for future, i think learning SQL language and database skills would be extremely helpful because i chose a major of statistics in college. by combining statistics and programming, it would be a path to go into big data or other fields that require this skills and knowledge. 
+
+1/23: went to cissmun and feel like left out a lot from the new topics, but will try to catch up the new things. learned some more new commands and functions, but need more time to review them. 
