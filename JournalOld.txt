@@ -1,0 +1,51 @@
+8/25: Created our own pokemon centre which offers two different services. And the trainers could request orders for different services for different amount of time. Also, we created our own spread sheet that contains all kinds of attributes, which we will use it in the db to analyse future data. 
+
+8/29: learned the database relationships and identified the primary keys for each small tables formed from the database. saw some examples of the reports created from the database. and will be making a movie database for homework. 
+
+9/1: learned ER diagram today. discussed several entities and attributes. and some other relationships based on the homework and pokemon database. the last part of the class was to make an ER diagram for our movie database. 
+
+9/5: learned the weak relationships and entities. practiced several exercises to identify the weak entities. in the warm up section, there are different relationships such as with roles and and with attributes. besides research found online, i drew some ER diagrams for different tasks. 
+
+9/8: did three ER Diagrams in class today along with the discussions with classmates on how to improve the diagram. with the helps, i was able to know more techniques to make the diagrams look better.  
+
+9/19: today was the first test of SQL. i think overall it is not as hard as i thought. but after the test hearing other ppl saying it is hard and did not have enough time to do the tasks, i am worrying about failing it… hopefully i will got everything it asked. 
+
+9/26: new topic today. made some databases during the class today and have more to practice at home this week. 
+
+10/3: practiced the FDs and learned the normalisations. looked up some examples of the second normal tables and presented to the class today. 
+
+10/5: practiced with normalisations and learned the 3NF. 
+
+10/13: working on a project of making ER Diagrams, relational schema, and analysing anomalies with alex today. met some problem where we could not understand the meaning of the database, but will be thinking about that. 
+
+10/17: watched a video about database modeling and denormalisations. 
+
+10/20: chose a database from kaggle to work on a project. and thought about how to explain the BCNF to children, which was extremely hard. 
+
+10/24, 10/27: working on the database we chose last time. preparing for the finals. 
+
+11/3: installed mySQL and started to use it to create databases and drawing ER diagrams. 
+
+11/7: continue using the work bench and installed data grip to create tables and all the other settings of the tables. 
+
+11/10: learned how to use data grip and different kinds of comments. 
+
+11/14: started a music database today, but met some problems that we were not able to continue to work. 
+
+11/17: the problem from last week was solved. learned query and practiced with several exercises today. 
+
+11/21: continue using the music database created few classes ago to practice some skills of sql. learned delete, update, and joining tables today. 
+
+11/24: used a employee database and did several exercises. need to finish the rest of the exercises later. learned import from the terminal and practiced with the commands. 
+
+11/28: learned some new methods in the sql languages including allies and group by methods and practiced some queries. 
+
+12/1: played a game called guess who by writing sql commands with clues to find out who the person is. 
+
+12/12: worked on the skill database and making up the works during the weekend because of the competition. and its time to change a new computer.;( 
+
+1/16: Starting last year, the first course was about Pokemon go database. and that is when i first get to know about organising data is computer languages. throughout the lessons, i learned how to draw ER diagrams, functional dependencies, normalisations. and later on in to queries to find specific information. at first i thought the queries was not as hard as i thought, just using key words to find information. but when the lesson goes on to the complex commands, it was hard to understand each commands’ function and how to use them. like now i am still confused sometimes whether I’m using them right or wrong. as for future, i think learning SQL language and database skills would be extremely helpful because i chose a major of statistics in college. by combining statistics and programming, it would be a path to go into big data or other fields that require this skills and knowledge. 
+
+1/23: went to cissmun and feel like left out a lot from the new topics, but will try to catch up the new things. learned some more new commands and functions, but need more time to review them. 
+
+2/6: started html courses on website and will be working on the tv series table transferring into html. 
