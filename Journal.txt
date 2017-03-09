@@ -1,1 +1,3 @@
 3/6: finally have the data showed in the website after user submitting their information. 
+
+3/9: installed phpstorm. we can use that for everything including data grip and fillzila. also we stated with the encryption of the password for users. 
