@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="449fa935-5b5e-4b06-9bbf-4b77310efea4" name="Sabpi" url="http://192.168.1.116">
-        <fileTransfer host="192.168.1.116" port="22" accessType="SFTP">
+      <webServer id="449fa935-5b5e-4b06-9bbf-4b77310efea4" name="Sabpi" url="http://192.168.3.174">
+        <fileTransfer host="192.168.3.174" port="22" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
