@@ -5,3 +5,5 @@
 3/22: final project due today, haven’t finished in class, was working on the edit.php.
 
 4/6: started new lessons, functions. practice some in class today. 
+
+4/10: working on the three tasks that require tables and functions. but the grade part is still hard .-. 

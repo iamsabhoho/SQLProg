@@ -121,14 +121,39 @@ CREATE FUNCTION loop1(x INTEGER)
 
 DROP FUNCTION IF EXISTS loop1(x INTEGER);
 
-SELECT loop1(10);
+SELECT loop1(10)
 
-CREATE FUNCTION loop2(x INTEGER)
-  RETURNS VOID AS
+CREATE FUNCTION loop2(x INTEGER) RETURNS VOID AS
 $$
 BEGIN
-  FOR cnt IN 1..x LOOP
-    RAISE NOTICE 'Counter value is: %', cnt;
+  FOR counter IN REVERSE x..1 LOOP
+    RAISE NOTICE 'Counter value is: %', counter;
   END LOOP;
 END;
 $$LANGUAGE plpgsql;
+
+SELECT loop2(10)
+
+CREATE FUNCTION loop3(x INTEGER) RETURNS VOID AS
+$$
+BEGIN
+  FOR counter IN 1..x BY 2 LOOP
+    RAISE NOTICE 'odd number: %', counter;
+  END LOOP;
+END;
+$$LANGUAGE plpgsql;
+
+SELECT loop3(10);
+
+CREATE FUNCTION loop4(x INTEGER) RETURNS VOID AS
+$$
+BEGIN
+  FOR counter IN 0..x BY 2 LOOP
+    RAISE NOTICE 'even number: %', counter;
+  END LOOP;
+END;
+$$LANGUAGE plpgsql;
+
+drop FUNCTION IF EXISTS loop4(x INTEGER);
+
+SELECT loop4(10)
